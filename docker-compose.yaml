@@ -1,12 +1,12 @@
 version: "3"
 services:
   neko:
-    image: "adijaiswal/vb:latest"
+    image: "murugan1502/edgebrowser:latest"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
-      - "8080:8080"
-      - "52000-52100:52000-52100/udp"
+      - "8090:8090"
+      
     environment:
       NEKO_SCREEN: 1920x1080@30
       NEKO_PASSWORD: neko
