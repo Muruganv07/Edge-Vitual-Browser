@@ -1,7 +1,7 @@
 version: "3"
 services:
   neko:
-    image: "murugan1502/edgebrowsertest:latest"
+    image: "murugan1502/browserdeploymentexample:latest"
     restart: "unless-stopped"
     shm_size: "2gb"
     ports:
